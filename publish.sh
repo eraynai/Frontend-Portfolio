@@ -17,4 +17,6 @@ git remote add origin https://github.com/eraynai/Frontend-Portfolio
 
 git push --force origin master:gh-pages
 
+rm -rf .git
+
 cd ..
