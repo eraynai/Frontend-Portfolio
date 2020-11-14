@@ -1,3 +1,61 @@
+
+
+    
+
 body {
     background-color: orange;
+    background-image: url("./../img/bubble_bg.png");
+    
+}
+
+.container {
+    
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    border: 2px red solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    border: 2px blue solid;
+    width: 100px;
+}
+
+.nav-links {
+    list-style: none;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 0;
+    border: 2px green solid;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h2 {
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+
+.small-logos a {
+    padding: 1em;
+}
+
+.image-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-me img {
+    width: 100vw;
+    position: absolute;
 }
